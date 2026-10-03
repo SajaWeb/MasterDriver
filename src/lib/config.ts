@@ -21,9 +21,9 @@ export const PRICE = {
 export const APP = {
   name: "MasterDriver",
   /** Siempre la última versión: la publica scripts/publicar-version.sh en Firebase Hosting. */
-  downloadUrl: "https://masterdriver-506a0.web.app/descargas/masterdriver.apk",
+  downloadUrl: "https://masterdriver.site/descargas/masterdriver.apk",
   /** Página de descarga con los pasos de instalación, en el mismo Hosting. */
-  installUrl: "https://masterdriver-506a0.web.app/",
+  installUrl: "https://masterdriver.site/",
   minAndroid: "Android 8 o superior",
   platforms: ["Uber", "DiDi"],
 } as const;
