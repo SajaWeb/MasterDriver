@@ -23,7 +23,7 @@ const dmSans = DM_Sans({
 
 const description =
   "Lee la oferta de DiDi y Uber y te dice en voz alta, en el momento, si cumple lo que quieres " +
-  "ganar. Y al final del día te muestra cuánto te quedó de verdad. 7 días gratis.";
+  "ganar. Y al final del día te muestra cuánto te quedó de verdad. 3 días gratis.";
 
 export const metadata: Metadata = {
   title: "MasterDriver — sabe cuánto te queda de cada viaje",

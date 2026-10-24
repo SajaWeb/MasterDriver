@@ -635,8 +635,8 @@ function FormDias({
   conCantidad?: boolean;
   onEnviar: (v: { days: number; plan: string; notes: string; count: number }) => Promise<boolean>;
 }) {
-  const [dias, setDias] = useState("30");
-  const [plan, setPlan] = useState("mensual");
+  const [dias, setDias] = useState("365");
+  const [plan, setPlan] = useState("anual");
   const [notes, setNotes] = useState("");
   const [cantidad, setCantidad] = useState("1");
   const [enviando, setEnviando] = useState(false);

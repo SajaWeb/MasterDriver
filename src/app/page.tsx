@@ -236,7 +236,7 @@ function Pricing() {
           <h2 className="display max-w-[14ch] text-ink">Pruébala {PRICE.trialDays} días sin pagar nada</h2>
           <p className="body-lg mt-5 max-w-[46ch] text-ink-muted">
             Entras con tu cuenta de Google y la prueba se activa sola. No pedimos tarjeta y no hay
-            nada que cancelar: si al séptimo día no te sirvió, dejas de usarla y ya.
+            nada que cancelar: si al tercer día no te sirvió, dejas de usarla y ya.
           </p>
           <p className="body mt-5 max-w-[46ch] text-ink-muted">
             Tu contabilidad y tus datos siguen siendo tuyos aunque no renueves. Lo que se apaga son
@@ -296,7 +296,7 @@ function Install() {
       title: "Si Play Protect la bloquea",
       body: "Play Store › tu foto › Play Protect › ⚙: apaga «Analizar apps con Play Protect», instala y vuelve a prenderlo.",
     },
-    { title: "Entra con Google", body: "Abre MasterDriver y entra con tu cuenta. La prueba de 7 días se activa sola." },
+    { title: "Entra con Google", body: `Abre MasterDriver y entra con tu cuenta. La prueba de ${PRICE.trialDays} días se activa sola.` },
     {
       title: "Activa la lectura de ofertas",
       body: "Si el ajuste sale gris: Ajustes › Aplicaciones › MasterDriver › ⋮ › «Permitir ajustes restringidos».",

@@ -6,16 +6,14 @@
  */
 
 /**
- * PRECIO PROVISIONAL — hay que confirmarlo antes de publicar.
- *
- * Es el único valor de este repositorio que no salió de una fuente real: está puesto dentro del
- * rango de lo que cobran las apps de asistencia a conductores en Colombia, pero nadie lo decidió.
+ * El plan que se vende desde 0.9.0: un año. Es el de Colombia; Ecuador (US$8) y México (MX$149)
+ * están en PRICING de functions/src/paymentLogic.ts, que es lo que de verdad se cobra.
  */
 export const PRICE = {
-  amount: 25_000,
+  amount: 30_000,
   currency: "COP",
-  period: "mes",
-  trialDays: 7,
+  period: "año",
+  trialDays: 3,
 } as const;
 
 export const APP = {

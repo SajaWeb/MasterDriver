@@ -40,8 +40,8 @@ export const GET = withAdmin(async () => {
  */
 export const POST = withAdmin(async (session, request) => {
   const body = (await request.json().catch(() => ({}))) as Record<string, unknown>;
-  const days = Number(body.days ?? 30);
-  const plan = cleanText(body.plan, 40) || "mensual";
+  const days = Number(body.days ?? 365);
+  const plan = cleanText(body.plan, 40) || "anual";
   const notes = cleanText(body.notes, 200) || null;
 
   if (!Number.isInteger(days) || days < 1 || days > 3650) {
